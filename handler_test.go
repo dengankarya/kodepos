@@ -166,7 +166,7 @@ func TestHomeRedirect_WithoutQ(t *testing.T) {
 		t.Errorf("expected 301, got %d", rr.Code)
 	}
 	loc := rr.Header().Get("Location")
-	if loc != "https://github.com/dengankarya/kodepos" {
+	if loc != "https://github.com/sooluh/kodepos" {
 		t.Errorf("expected redirect to GitHub, got %q", loc)
 	}
 }
