@@ -1,0 +1,10 @@
+.git
+.gitignore
+.gitpod.yml
+.idx
+.nvmrc
+*.md
+LICENSE
+node_modules
+dist
+vercel.json

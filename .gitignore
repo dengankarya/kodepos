@@ -1,0 +1,5 @@
+kodepos
+*.exe
+*.log
+.vscode
+.vercel
