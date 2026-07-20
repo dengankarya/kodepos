@@ -2,6 +2,7 @@ package main
 
 import (
 	"sort"
+	"strconv"
 	"strings"
 )
 
@@ -40,6 +41,7 @@ func buildFulltext(p PostalCode) string {
 		p.District,
 		p.Regency,
 		p.Province,
+		strconv.Itoa(p.Code),
 	}
 
 	var b strings.Builder
